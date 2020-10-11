@@ -4,7 +4,4 @@ This is a new repository dedicated just for mobile, it strives to use the data f
 
 ## Designs
 
-Work in progress designs are shared here https://www.figma.com/file/1llpwoqBGfnmmAqfAtza1K/Spark-Ed-LEARNING-PORTAL?node-id=0%3A1
-
-
-
+Work in progress designs are shared here https://www.figma.com/file/1llpwoqBGfnmmAqfAtza1K/Spark-Ed-LEARNING-PORTAL?node-id=0%3A1, Thanks to [Stellah Mwanahamuntu](https://github.com/MwanahamuntuStarr) for the awesome designs.
