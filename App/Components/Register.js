@@ -5,21 +5,10 @@ import style from './Style.js'
 
 const Register = () => {
   return (
-    <Container style={{backgroundColor: '#2E8581', padding: 20}}>
-      <View style={{alignItems: 'center', margin: 20}}>
-        <Image
-          source={require('../../logo.png')}
-          style={{width: 210, height: 100}}
-        />
-        <Text
-          style={{
-            color: '#fff',
-            fontSize: 36,
-            fontWeight: '700',
-            lineHeight: 42,
-          }}>
-          Sign Up
-        </Text>
+    <Container style={style.containerStyle}>
+      <View style={style.viewStyle}>
+        <Image source={require('../../logo.png')} style={style.image} />
+        <Text style={style.textSignUp}>Sign Up</Text>
       </View>
       <Form>
         <Label style={style.labelText}>Email</Label>

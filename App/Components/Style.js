@@ -25,4 +25,22 @@ export default StyleSheet.create({
     fontWeight: '700',
     marginTop: 10,
   },
+  textSignUp: {
+    color: '#fff',
+    fontSize: 36,
+    fontWeight: '700',
+    lineHeight: 42,
+  },
+  image: {
+    width: 210,
+    height: 100,
+  },
+  containerStyle: {
+    backgroundColor: '#2E8581',
+    padding: 20,
+  },
+  viewStyle: {
+    alignItems: 'center',
+    margin: 20,
+  },
 })
