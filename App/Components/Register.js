@@ -1,6 +1,7 @@
 import React from 'react'
-import {Text, View, Image} from 'react-native'
+import {StyleSheet, Text, View, Image} from 'react-native'
 import {Container, Form, Button, Item, Input, Label} from 'native-base'
+import style from './Style.js'
 
 const Register = () => {
   return (
@@ -21,51 +22,22 @@ const Register = () => {
         </Text>
       </View>
       <Form>
-        <Label
-          style={{
-            color: '#fff',
-            fontWeight: '700',
-            marginTop: 10,
-            marginBottom: 10,
-            fontSize: 18,
-          }}>
-          Email
-        </Label>
-        <Item regular style={{backgroundColor: 'rgba(255, 255, 255, 0.5)'}}>
+        <Label style={style.labelText}>Email</Label>
+        <Item regular style={style.inputStyle}>
           <Input />
         </Item>
-        <Label
-          style={{
-            color: '#fff',
-            fontWeight: '700',
-            marginTop: 10,
-            marginBottom: 10,
-            fontSize: 18,
-          }}>
-          Create Password
-        </Label>
-        <Item regular style={{backgroundColor: 'rgba(255, 255, 255, 0.5)'}}>
+        <Label style={style.labelText}>Create Password</Label>
+        <Item regular style={style.inputStyle}>
           <Input secureTextEntry={true} />
         </Item>
-        <Label
-          style={{
-            color: '#fff',
-            fontWeight: '700',
-            marginTop: 10,
-            marginBottom: 10,
-            fontSize: 18,
-          }}>
-          Confirm Password
-        </Label>
-        <Item regular style={{backgroundColor: 'rgba(255, 255, 255, 0.5)'}}>
+        <Label style={style.labelText}>Confirm Password</Label>
+        <Item regular style={style.inputStyle}>
           <Input secureTextEntry={true} />
         </Item>
-        <Button block style={{backgroundColor: '#fff', marginTop: 50}}>
-          <Text style={{color: '#2E8581', fontWeight: '700', fontSize: 18}}>
-            Sign Up
-          </Text>
+        <Button block style={style.buttonStyle}>
+          <Text style={style.textStyle}>Sign Up</Text>
         </Button>
-        <Text style={{color: '#fff', fontWeight: '700', marginTop: 10}}>
+        <Text style={style.textStyleAccount}>
           Already have an account? Log In
         </Text>
       </Form>
