@@ -1,7 +1,7 @@
 import React from 'react'
 import {StyleSheet, Text, View, Image} from 'react-native'
 import {Container, Form, Button, Item, Input, Label} from 'native-base'
-import style from './Style.js'
+import style from '../styles/Style.js'
 
 const Register = () => {
   return (
