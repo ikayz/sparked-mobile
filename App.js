@@ -10,16 +10,12 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <View>
-          {/* <View style={styles.sectionContainer}>
+          <View style={styles.sectionContainer}>
             <Text style={styles.sectionTitle}>Welcome to SparkEd Mobile</Text>
             <Text style={styles.sectionDescription}>
               <ReloadInstructions />
             </Text>
-          </View> */}
-
-          <Onboarding />
-
-          
+          </View>  
         </View>
       </SafeAreaView>
     </>
