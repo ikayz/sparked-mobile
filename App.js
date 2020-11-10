@@ -1,7 +1,8 @@
 import React from 'react'
 import {SafeAreaView, StyleSheet, View, Text, StatusBar} from 'react-native'
 import {Colors, ReloadInstructions} from 'react-native/Libraries/NewAppScreen'
-import Onboarding from './App/Components/Onboarding'
+import Onboarding from './src/components/Onboarding'
+
 
 const App = () => {
   return (
