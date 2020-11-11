@@ -83,7 +83,7 @@ export default StyleSheet.create({
     height: '55%',
     display: 'flex',
     justifyContent: 'flex-start',
-    flexDirection: 'column'
+    flexDirection: 'column',
   },
   logoText: {
     fontSize: 35,
